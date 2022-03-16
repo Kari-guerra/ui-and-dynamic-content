@@ -1,0 +1,143 @@
+/*
+Color Scheme
+#332400 - Brown 
+#755200 - Brown light
+#f0a700 - yellow
+*/
+
+
+/* General */
+img,
+object {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+body {
+    background-color: #ffffff;
+    margin: 3rem;
+}
+
+main {
+ 
+    margin: 3rem;
+    background-color: #332400;
+    border-style: solid;
+    border-color: #dddddd;
+    max-width: 45rem;
+    padding: 3rem;
+    margin: 3rem auto;
+    
+}
+
+img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+
+h1 {
+    color: #f0a700;
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.1;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: #f0a700;
+
+}
+
+ul {
+    color: #f0a700;
+    font-size: 1.4rem;
+    
+}
+
+p {
+    color: white;
+}
+
+
+
+/* Form */
+form {
+   
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color: #070707;
+}
+
+ input {
+    width: 100%;
+    margin: 0;
+    border-style: solid;
+    border-color: #755200;
+    height: 2rem;
+}
+
+
+form,  label {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+
+input[type="submit"] {
+    background-color: #f0a700;
+    padding: .4rem;
+    font-size: 1rem;
+    display: block;
+    color: #332400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: .7rem;
+    padding-bottom: 1.7rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #332400;
+    color: #f0a700; 
+}
+
+/* Social media  */
+
+.social-media ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.social-media ul li a i {
+    color: #f0a700;
+   
+}
+
+.social-media ul li a i:hover {
+    color: #755200;
+
+}
+
